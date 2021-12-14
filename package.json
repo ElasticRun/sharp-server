@@ -1,0 +1,43 @@
+{
+  "name": "sharp-server",
+  "description": "A node server that resizes images using sharp library",
+  "author": "ElasticRun",
+  "homepage": "https://elastic.run/", 
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lovell/sharp"
+  },
+  "keywords": [
+    "jpeg",
+    "png",
+    "webp",
+    "tiff",
+    "gif",
+    "svg",
+    "dzi",
+    "image",
+    "resize",
+    "thumbnail",
+    "crop",
+    "embed",
+    "libvips",
+    "vips"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "blueimp-md5": "^2.10.0",
+    "express": "^4.16.4",
+    "sharp": "^0.27.0",
+    "ua-spy": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
